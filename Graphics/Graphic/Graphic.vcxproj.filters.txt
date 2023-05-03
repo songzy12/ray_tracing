@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Cameras">
+      <UniqueIdentifier>{89ea93db-8df4-4b7e-b385-cda28b4eed60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GeometricObjects">
+      <UniqueIdentifier>{987774f4-de6a-44bf-96dd-94d313191561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Materials">
+      <UniqueIdentifier>{f8838bf0-ecb8-4990-ae8f-d8a1164e8f4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Utilities">
+      <UniqueIdentifier>{eaee3f53-7986-4291-a674-76129b3f8b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Cameras">
+      <UniqueIdentifier>{89e2f12f-1c05-470f-8c4d-75d132a48766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GeometricObjects">
+      <UniqueIdentifier>{815978d0-ef2b-4ad1-a8a6-44acb75dedf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Materials">
+      <UniqueIdentifier>{397838c3-c866-4803-a7fd-2e2c03f0b7e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Utilities">
+      <UniqueIdentifier>{15297c52-27d4-47fd-b46a-a193506f8aef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\World">
+      <UniqueIdentifier>{c5e917da-da50-41c4-9e30-264704489541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\World">
+      <UniqueIdentifier>{c02127c1-4cca-45b9-b710-59f32ec0addc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Tracers">
+      <UniqueIdentifier>{6d3a8f07-8ce9-418f-bb02-3929fc13a31d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Tracers">
+      <UniqueIdentifier>{e3dc1704-f5af-45b1-a7d8-c49f871b5f33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BRDFs">
+      <UniqueIdentifier>{cb97213b-a66c-4809-b24c-9e1a8555577a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\BRDFs">
+      <UniqueIdentifier>{bc5ce87c-7bb8-4ccf-bf7e-d52ee551a1b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Lights">
+      <UniqueIdentifier>{787a5abd-9a81-408e-a5e3-0f24827f784d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Lights">
+      <UniqueIdentifier>{6062ffbc-f95f-481b-8540-57880d7bc2fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Samplers">
+      <UniqueIdentifier>{0801edb8-ca20-4b85-82ac-510b812ddb00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Samplers">
+      <UniqueIdentifier>{07577c74-1759-453b-b267-17d956454b82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\BTDFs">
+      <UniqueIdentifier>{74e20e14-6cb9-4930-9979-11b1b78701c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BTDFs">
+      <UniqueIdentifier>{ab1c280b-64e0-47bb-9d5e-3d470fa373ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Textures">
+      <UniqueIdentifier>{2ca85192-0072-4936-8365-ed6c2e237643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Textures">
+      <UniqueIdentifier>{7feae1a2-7c5a-44cf-8e3a-392b49aa7afb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometricObject.cpp">
+      <Filter>源文件\GeometricObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>源文件\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="RGBColor.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Point3D.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>源文件\GeometricObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>源文件\World</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewPlane.cpp">
+      <Filter>源文件\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>源文件\GeometricObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Matte.cpp">
+      <Filter>源文件\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Normal.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Point2D.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadeRec.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracer.cpp">
+      <Filter>源文件\Tracers</Filter>
+    </ClCompile>
+    <ClCompile Include="Pinhole.cpp">
+      <Filter>源文件\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="BRDF.cpp">
+      <Filter>源文件\BRDFs</Filter>
+    </ClCompile>
+    <ClCompile Include="Lambertian.cpp">
+      <Filter>源文件\BRDFs</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>源文件\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Directional.cpp">
+      <Filter>源文件\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Ambient.cpp">
+      <Filter>源文件\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>源文件\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="GlossySpecular.cpp">
+      <Filter>源文件\BRDFs</Filter>
+    </ClCompile>
+    <ClCompile Include="Phong.cpp">
+      <Filter>源文件\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Sampler.cpp">
+      <Filter>源文件\Samplers</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiJittered.cpp">
+      <Filter>源文件\Samplers</Filter>
+    </ClCompile>
+    <ClCompile Include="AreaLighting.cpp">
+      <Filter>源文件\Tracers</Filter>
+    </ClCompile>
+    <ClCompile Include="Emissive.cpp">
+      <Filter>源文件\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>源文件\GeometricObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="AreaLight.cpp">
+      <Filter>源文件\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Whitted.cpp">
+      <Filter>源文件\Tracers</Filter>
+    </ClCompile>
+    <ClCompile Include="PerfectSpecular.cpp">
+      <Filter>源文件\BRDFs</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflective.cpp">
+      <Filter>源文件\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="BTDF.cpp">
+      <Filter>源文件\BTDFs</Filter>
+    </ClCompile>
+    <ClCompile Include="PerefctTransmitter.cpp">
+      <Filter>源文件\BTDFs</Filter>
+    </ClCompile>
+    <ClCompile Include="Transparent.cpp">
+      <Filter>源文件\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>源文件\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>源文件\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageTexture.cpp">
+      <Filter>源文件\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapping.cpp">
+      <Filter>源文件\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="SV_Matte.cpp">
+      <Filter>源文件\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="SV_Lambertian.cpp">
+      <Filter>源文件\BRDFs</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantColor.cpp">
+      <Filter>源文件\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="SphericalMap.cpp">
+      <Filter>源文件\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="Checker3D.cpp">
+      <Filter>源文件\Textures</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pinhole.h">
+      <Filter>头文件\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometricObject.h">
+      <Filter>头文件\GeometricObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>头文件\GeometricObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>头文件\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="RGBColor.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Point3D.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>头文件\World</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewPlane.h">
+      <Filter>头文件\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>头文件\GeometricObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Matte.h">
+      <Filter>头文件\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Normal.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Point2D.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadeRec.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracer.h">
+      <Filter>头文件\Tracers</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="BRDF.h">
+      <Filter>头文件\BRDFs</Filter>
+    </ClInclude>
+    <ClInclude Include="Lambertian.h">
+      <Filter>头文件\BRDFs</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>头文件\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Directional.h">
+      <Filter>头文件\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Ambient.h">
+      <Filter>头文件\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>头文件\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="GlossySpecular.h">
+      <Filter>头文件\BRDFs</Filter>
+    </ClInclude>
+    <ClInclude Include="Phong.h">
+      <Filter>头文件\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Sampler.h">
+      <Filter>头文件\Samplers</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiJittered.h">
+      <Filter>头文件\Samplers</Filter>
+    </ClInclude>
+    <ClInclude Include="AreaLighting.h">
+      <Filter>头文件\Tracers</Filter>
+    </ClInclude>
+    <ClInclude Include="Emissive.h">
+      <Filter>头文件\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>头文件\GeometricObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="AreaLight.h">
+      <Filter>头文件\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Whitted.h">
+      <Filter>头文件\Tracers</Filter>
+    </ClInclude>
+    <ClInclude Include="PerfectSpecular.h">
+      <Filter>头文件\BRDFs</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflective.h">
+      <Filter>头文件\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="BTDF.h">
+      <Filter>头文件\BTDFs</Filter>
+    </ClInclude>
+    <ClInclude Include="PerfectTransmitter.h">
+      <Filter>头文件\BTDFs</Filter>
+    </ClInclude>
+    <ClInclude Include="Transparent.h">
+      <Filter>头文件\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>头文件\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>头文件\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageTexture.h">
+      <Filter>头文件\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapping.h">
+      <Filter>头文件\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="SphericalMap.h">
+      <Filter>头文件\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="SV_Matte.h">
+      <Filter>头文件\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="SV_Lambertian.h">
+      <Filter>头文件\BRDFs</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantColor.h">
+      <Filter>头文件\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Checker3D.h">
+      <Filter>头文件\Textures</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
